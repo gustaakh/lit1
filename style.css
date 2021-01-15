@@ -1,0 +1,19 @@
+.author a{	
+	font-style: italic;
+    text-decoration: none;
+}
+.inputWrapper {
+	display:flex;
+	justify-content: space-between;
+    margin: 15px 0;
+    height: 40px;
+}
+.tags ul li {
+	display: inline;
+    font-style: italic;
+    text-decoration: none;
+	color: grey;	
+}
+.status {
+	font-size:small;
+}
