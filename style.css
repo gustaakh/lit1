@@ -8,6 +8,9 @@
     margin: 15px 0;
     height: 40px;
 }
+.inputWrapper input {
+	width: 60%;
+}
 .tags ul li {
 	display: inline;
     font-style: italic;
