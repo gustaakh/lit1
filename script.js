@@ -16,7 +16,7 @@ https://cors-anywhere.herokuapp.com/
 http://alloworigin.com/get?url=
 https://api.allorigins.win/get?
 */	
-await fetch(url).then(function (response) {
+await fetch('https://cors-anywhere.herokuapp.com/'+url).then(function (response) {
 	// The API call was successful!	
 	return response.text();
 }).then(function (html) {
